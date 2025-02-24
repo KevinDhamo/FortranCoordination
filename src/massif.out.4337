@@ -1,0 +1,1069 @@
+desc: (none)
+cmd: ./coordination_analysis --benchmark
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=818036235
+mem_heap_B=5086133
+mem_heap_extra_B=200579
+mem_stacks_B=0
+heap_tree=detailed
+n10: 5086133 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1248000 0x404C67: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 1248000 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 1248000 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 1248000 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 1248000 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 1248000 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 1247800 0x404D55: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 1247800 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 1247800 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 1247800 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 1247800 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 1247800 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 898560 0x409F06: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 898560 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 898560 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 898560 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40B655: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40EFE2: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x411867: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 153096 0x41199B: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 153096 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 76548 0x41190F: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 76548 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 69776 0x4895038: _gfortrani_xmalloc (memory.c:38)
+  n0: 69776 in 4 places, all below massif's threshold (1.00%)
+ n0: 14489 in 24 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=2358761860
+mem_heap_B=5086333
+mem_heap_extra_B=200595
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=3426630821
+mem_heap_B=5084397
+mem_heap_extra_B=200499
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=5381117143
+mem_heap_B=5084398
+mem_heap_extra_B=200514
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=7181761935
+mem_heap_B=5084494
+mem_heap_extra_B=200522
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=8289858553
+mem_heap_B=5089221
+mem_heap_extra_B=200555
+mem_stacks_B=0
+heap_tree=detailed
+n10: 5089221 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1248000 0x404C67: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 1248000 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 1248000 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 1248000 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 1248000 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 1248000 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 1247800 0x404D55: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 1247800 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 1247800 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 1247800 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 1247800 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 1247800 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 898560 0x409F06: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 898560 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 898560 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 898560 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40B655: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40EFE2: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x411867: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 153096 0x41199B: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 153096 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 76548 0x41190F: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 76548 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 74496 0x4895038: _gfortrani_xmalloc (memory.c:38)
+  n0: 74496 in 4 places, all below massif's threshold (1.00%)
+ n0: 12857 in 24 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=9574284415
+mem_heap_B=5089221
+mem_heap_extra_B=200555
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=11085387328
+mem_heap_B=5084398
+mem_heap_extra_B=200514
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=11966864566
+mem_heap_B=5084398
+mem_heap_extra_B=200514
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=13100193255
+mem_heap_B=5084698
+mem_heap_extra_B=200526
+mem_stacks_B=0
+heap_tree=detailed
+n10: 5084698 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1248000 0x404C67: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 1248000 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 1248000 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 1248000 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 1248000 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 1248000 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 1247800 0x404D55: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 1247800 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 1247800 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 1247800 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 1247800 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 1247800 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 898560 0x409F06: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 898560 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 898560 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 898560 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40B655: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40EFE2: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x411867: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 153096 0x41199B: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 153096 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 76548 0x41190F: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 76548 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 69776 0x4895038: _gfortrani_xmalloc (memory.c:38)
+  n0: 69776 in 4 places, all below massif's threshold (1.00%)
+ n0: 13054 in 24 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=13981671376
+mem_heap_B=5089221
+mem_heap_extra_B=200555
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=15089812875
+mem_heap_B=5086134
+mem_heap_extra_B=200594
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=15996479322
+mem_heap_B=5084698
+mem_heap_extra_B=200526
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=17356481576
+mem_heap_B=5084398
+mem_heap_extra_B=200514
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=18489816966
+mem_heap_B=5084494
+mem_heap_extra_B=200522
+mem_stacks_B=0
+heap_tree=detailed
+n10: 5084494 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1248000 0x404C67: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 1248000 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 1248000 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 1248000 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 1248000 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 1248000 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 1247800 0x404D55: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 1247800 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 1247800 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 1247800 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 1247800 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 1247800 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 898560 0x409F06: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 898560 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 898560 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 898560 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40B655: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40EFE2: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x411867: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 153096 0x41199B: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 153096 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 76548 0x41190F: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 76548 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 69776 0x4895038: _gfortrani_xmalloc (memory.c:38)
+  n0: 69776 in 4 places, all below massif's threshold (1.00%)
+ n0: 12850 in 24 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=16
+#-----------
+time=20076483861
+mem_heap_B=5084698
+mem_heap_extra_B=200526
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=20983150560
+mem_heap_B=5089221
+mem_heap_extra_B=200555
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=22116484714
+mem_heap_B=5084398
+mem_heap_extra_B=200514
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=23703151838
+mem_heap_B=5086334
+mem_heap_extra_B=200610
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=24997153278
+mem_heap_B=5110049
+mem_heap_extra_B=200711
+mem_stacks_B=0
+heap_tree=peak
+n10: 5110049 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1248000 0x404C67: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 624000 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 624000 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 624000 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 624000 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 624000 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 624000 0x4C87A0D: gomp_thread_start (team.c:129)
+   n1: 624000 0x4D82291: start_thread (pthread_create.c:447)
+    n0: 624000 0x4E072D3: clone (clone.S:100)
+ n2: 1247600 0x404D55: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 623800 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 623800 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 623800 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 623800 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 623800 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 623800 0x4C87A0D: gomp_thread_start (team.c:129)
+   n1: 623800 0x4D82291: start_thread (pthread_create.c:447)
+    n0: 623800 0x4E072D3: clone (clone.S:100)
+ n1: 898560 0x409F06: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 898560 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 898560 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 898560 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40B655: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40EFE2: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x411867: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 153096 0x41199B: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 153096 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n2: 93216 0x4895038: _gfortrani_xmalloc (memory.c:38)
+  n1: 65632 0x4B00C87: _gfortrani_parse_format (format.c:1385)
+   n1: 65632 0x4B120F7: data_transfer_init (transfer.c:3218)
+    n0: 65632 in 19 places, all below massif's threshold (1.00%)
+  n0: 27584 in 3 places, all below massif's threshold (1.00%)
+ n1: 76548 0x41190F: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 76548 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n0: 15165 in 26 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=26775766077
+mem_heap_B=5110168
+mem_heap_extra_B=200720
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=27743683536
+mem_heap_B=5105345
+mem_heap_extra_B=200679
+mem_stacks_B=0
+heap_tree=detailed
+n10: 5105345 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1248000 0x404C67: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 624000 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 624000 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 624000 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 624000 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 624000 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 624000 0x4C87A0D: gomp_thread_start (team.c:129)
+   n1: 624000 0x4D82291: start_thread (pthread_create.c:447)
+    n0: 624000 0x4E072D3: clone (clone.S:100)
+ n2: 1247600 0x404D55: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 623800 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 623800 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 623800 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 623800 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 623800 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 623800 0x4C87A0D: gomp_thread_start (team.c:129)
+   n1: 623800 0x4D82291: start_thread (pthread_create.c:447)
+    n0: 623800 0x4E072D3: clone (clone.S:100)
+ n1: 898560 0x409F06: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 898560 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 898560 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 898560 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40B655: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40EFE2: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x411867: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 153096 0x41199B: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 153096 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n2: 88528 0x4895038: _gfortrani_xmalloc (memory.c:38)
+  n1: 60944 0x4B00C87: _gfortrani_parse_format (format.c:1385)
+   n1: 60944 0x4B120F7: data_transfer_init (transfer.c:3218)
+    n0: 60944 in 19 places, all below massif's threshold (1.00%)
+  n0: 27584 in 3 places, all below massif's threshold (1.00%)
+ n1: 76548 0x41190F: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 76548 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n0: 15149 in 26 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=29034239693
+mem_heap_B=5105505
+mem_heap_extra_B=200679
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=30970074919
+mem_heap_B=5105345
+mem_heap_extra_B=200679
+mem_stacks_B=0
+heap_tree=detailed
+n10: 5105345 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1248000 0x404C67: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 624000 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 624000 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 624000 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 624000 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 624000 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 624000 0x4C87A0D: gomp_thread_start (team.c:129)
+   n1: 624000 0x4D82291: start_thread (pthread_create.c:447)
+    n0: 624000 0x4E072D3: clone (clone.S:100)
+ n2: 1247600 0x404D55: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 623800 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 623800 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 623800 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 623800 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 623800 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 623800 0x4C87A0D: gomp_thread_start (team.c:129)
+   n1: 623800 0x4D82291: start_thread (pthread_create.c:447)
+    n0: 623800 0x4E072D3: clone (clone.S:100)
+ n1: 898560 0x409F06: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 898560 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 898560 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 898560 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40B655: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40EFE2: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x411867: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 153096 0x41199B: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 153096 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n2: 88528 0x4895038: _gfortrani_xmalloc (memory.c:38)
+  n1: 60944 0x4B00C87: _gfortrani_parse_format (format.c:1385)
+   n1: 60944 0x4B120F7: data_transfer_init (transfer.c:3218)
+    n0: 60944 in 19 places, all below massif's threshold (1.00%)
+  n0: 27584 in 3 places, all below massif's threshold (1.00%)
+ n1: 76548 0x41190F: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 76548 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n0: 15149 in 26 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=32583273731
+mem_heap_B=5105345
+mem_heap_extra_B=200679
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=33551192762
+mem_heap_B=5110168
+mem_heap_extra_B=200720
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=34841752396
+mem_heap_B=5110168
+mem_heap_extra_B=200720
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=36132310111
+mem_heap_B=5105345
+mem_heap_extra_B=200679
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=37422868072
+mem_heap_B=5105505
+mem_heap_extra_B=200679
+mem_stacks_B=0
+heap_tree=detailed
+n10: 5105505 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1248000 0x404C67: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 624000 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 624000 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 624000 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 624000 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 624000 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 624000 0x4C87A0D: gomp_thread_start (team.c:129)
+   n1: 624000 0x4D82291: start_thread (pthread_create.c:447)
+    n0: 624000 0x4E072D3: clone (clone.S:100)
+ n2: 1247600 0x404D55: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 623800 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 623800 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 623800 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 623800 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 623800 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 623800 0x4C87A0D: gomp_thread_start (team.c:129)
+   n1: 623800 0x4D82291: start_thread (pthread_create.c:447)
+    n0: 623800 0x4E072D3: clone (clone.S:100)
+ n1: 898560 0x409F06: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 898560 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 898560 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 898560 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40B655: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40EFE2: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x411867: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 153096 0x41199B: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 153096 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n2: 88528 0x4895038: _gfortrani_xmalloc (memory.c:38)
+  n1: 60944 0x4B00C87: _gfortrani_parse_format (format.c:1385)
+   n1: 60944 0x4B120F7: data_transfer_init (transfer.c:3218)
+    n0: 60944 in 19 places, all below massif's threshold (1.00%)
+  n0: 27584 in 3 places, all below massif's threshold (1.00%)
+ n1: 76548 0x41190F: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 76548 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n0: 15309 in 26 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=38390786461
+mem_heap_B=5105345
+mem_heap_extra_B=200679
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=39681344257
+mem_heap_B=5105345
+mem_heap_extra_B=200679
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=40971902047
+mem_heap_B=5105345
+mem_heap_extra_B=200679
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=42262459458
+mem_heap_B=5105345
+mem_heap_extra_B=200679
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=43622461918
+mem_heap_B=5105645
+mem_heap_extra_B=200691
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=44982467218
+mem_heap_B=5105505
+mem_heap_extra_B=200679
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=45889135244
+mem_heap_B=5105505
+mem_heap_extra_B=200679
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=47249137622
+mem_heap_B=5106625
+mem_heap_extra_B=200679
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=48609141289
+mem_heap_B=5106561
+mem_heap_extra_B=200687
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=49969144189
+mem_heap_B=5106465
+mem_heap_extra_B=200679
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=51782483179
+mem_heap_B=5106465
+mem_heap_extra_B=200679
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=53142485659
+mem_heap_B=5106472
+mem_heap_extra_B=200696
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=54502489996
+mem_heap_B=5106465
+mem_heap_extra_B=200679
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=55409160529
+mem_heap_B=5106625
+mem_heap_extra_B=200679
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=57222499084
+mem_heap_B=5106625
+mem_heap_extra_B=200679
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=58583678688
+mem_heap_B=5106425
+mem_heap_extra_B=200663
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=60397015707
+mem_heap_B=5106561
+mem_heap_extra_B=200687
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=61757018165
+mem_heap_B=5106472
+mem_heap_extra_B=200696
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=63117023057
+mem_heap_B=5106465
+mem_heap_extra_B=200679
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=64930360251
+mem_heap_B=5113528
+mem_heap_extra_B=200768
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=65748396789
+mem_heap_B=5108705
+mem_heap_extra_B=200727
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=66566433087
+mem_heap_B=5108865
+mem_heap_extra_B=200727
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=67393337286
+mem_heap_B=5108689
+mem_heap_extra_B=200743
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=68211373739
+mem_heap_B=5108705
+mem_heap_extra_B=200727
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=69029410002
+mem_heap_B=5113656
+mem_heap_extra_B=200776
+mem_stacks_B=0
+heap_tree=detailed
+n10: 5113656 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1248000 0x404C67: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 1092000 0x4C87A0D: gomp_thread_start (team.c:129)
+   n1: 1092000 0x4D82291: start_thread (pthread_create.c:447)
+    n0: 1092000 0x4E072D3: clone (clone.S:100)
+  n1: 156000 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 156000 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 156000 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 156000 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 156000 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n2: 1246400 0x404D55: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 1090600 0x4C87A0D: gomp_thread_start (team.c:129)
+   n1: 1090600 0x4D82291: start_thread (pthread_create.c:447)
+    n0: 1090600 0x4E072D3: clone (clone.S:100)
+  n1: 155800 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 155800 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 155800 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 155800 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 155800 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 898560 0x409F06: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 898560 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 898560 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 898560 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40B655: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40EFE2: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x411867: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 153096 0x41199B: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 153096 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n2: 93376 0x4895038: _gfortrani_xmalloc (memory.c:38)
+  n1: 65632 0x4B00C87: _gfortrani_parse_format (format.c:1385)
+   n1: 65632 0x4B120F7: data_transfer_init (transfer.c:3218)
+    n0: 65632 in 19 places, all below massif's threshold (1.00%)
+  n0: 27744 in 3 places, all below massif's threshold (1.00%)
+ n1: 76548 0x41190F: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 76548 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n0: 19812 in 26 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=69847446988
+mem_heap_B=5108865
+mem_heap_extra_B=200727
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=70665484454
+mem_heap_B=5108865
+mem_heap_extra_B=200727
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=71483520875
+mem_heap_B=5108712
+mem_heap_extra_B=200744
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=72301557961
+mem_heap_B=5109005
+mem_heap_extra_B=200739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=73119594753
+mem_heap_B=5108801
+mem_heap_extra_B=200735
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=73937631433
+mem_heap_B=5109265
+mem_heap_extra_B=200759
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=74755668762
+mem_heap_B=5108705
+mem_heap_extra_B=200727
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=75573705215
+mem_heap_B=5108705
+mem_heap_extra_B=200727
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=76391741497
+mem_heap_B=5108712
+mem_heap_extra_B=200744
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=77209777833
+mem_heap_B=5109065
+mem_heap_extra_B=200743
+mem_stacks_B=0
+heap_tree=detailed
+n10: 5109065 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1248000 0x404C67: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 1092000 0x4C87A0D: gomp_thread_start (team.c:129)
+   n1: 1092000 0x4D82291: start_thread (pthread_create.c:447)
+    n0: 1092000 0x4E072D3: clone (clone.S:100)
+  n1: 156000 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 156000 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 156000 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 156000 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 156000 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n2: 1246400 0x404D55: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 1090600 0x4C87A0D: gomp_thread_start (team.c:129)
+   n1: 1090600 0x4D82291: start_thread (pthread_create.c:447)
+    n0: 1090600 0x4E072D3: clone (clone.S:100)
+  n1: 155800 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 155800 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 155800 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 155800 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 155800 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 898560 0x409F06: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 898560 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 898560 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 898560 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40B655: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40EFE2: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x411867: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 153096 0x41199B: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 153096 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n2: 88528 0x4895038: _gfortrani_xmalloc (memory.c:38)
+  n1: 60944 0x4B00C87: _gfortrani_parse_format (format.c:1385)
+   n1: 60944 0x4B120F7: data_transfer_init (transfer.c:3218)
+    n0: 60944 in 19 places, all below massif's threshold (1.00%)
+  n0: 27584 in 3 places, all below massif's threshold (1.00%)
+ n1: 76548 0x41190F: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 76548 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n0: 20069 in 26 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=65
+#-----------
+time=78027814678
+mem_heap_B=5108865
+mem_heap_extra_B=200727
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=78845851578
+mem_heap_B=5108705
+mem_heap_extra_B=200727
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=79663887835
+mem_heap_B=5110905
+mem_heap_extra_B=200791
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=80481924697
+mem_heap_B=5111245
+mem_heap_extra_B=200835
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=81299961868
+mem_heap_B=5111041
+mem_heap_extra_B=200815
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=82117998196
+mem_heap_B=5111105
+mem_heap_extra_B=200807
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=82936034432
+mem_heap_B=5111245
+mem_heap_extra_B=200835
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=83754071494
+mem_heap_B=5110945
+mem_heap_extra_B=200807
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=84583904365
+mem_heap_B=5111105
+mem_heap_extra_B=200807
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=85401941319
+mem_heap_B=5115768
+mem_heap_extra_B=200848
+mem_stacks_B=0
+heap_tree=detailed
+n10: 5115768 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1248000 0x404C67: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 1144000 0x4C87A0D: gomp_thread_start (team.c:129)
+   n1: 1144000 0x4D82291: start_thread (pthread_create.c:447)
+    n0: 1144000 0x4E072D3: clone (clone.S:100)
+  n1: 104000 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 104000 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 104000 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 104000 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 104000 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n2: 1245600 0x404D55: __cell_list_mod_MOD_initialize_cell_list._omp_fn.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 1141800 0x4C87A0D: gomp_thread_start (team.c:129)
+   n1: 1141800 0x4D82291: start_thread (pthread_create.c:447)
+    n0: 1141800 0x4E072D3: clone (clone.S:100)
+  n1: 103800 0x4C7E065: GOMP_parallel (parallel.c:178)
+   n1: 103800 0x40B5DC: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n1: 103800 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+     n1: 103800 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+      n0: 103800 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 898560 0x409F06: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 898560 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 898560 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 898560 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40B655: __cell_list_mod_MOD_initialize_cell_list.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x40F755: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+    n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x40EFE2: __benchmark_mod_MOD_run_benchmark.constprop.0 (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n1: 459288 0x412522: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+   n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 459288 0x411867: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 459288 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n1: 153096 0x41199B: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 153096 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n2: 93248 0x4895038: _gfortrani_xmalloc (memory.c:38)
+  n1: 65632 0x4B00C87: _gfortrani_parse_format (format.c:1385)
+   n1: 65632 0x4B120F7: data_transfer_init (transfer.c:3218)
+    n0: 65632 in 19 places, all below massif's threshold (1.00%)
+  n0: 27616 in 3 places, all below massif's threshold (1.00%)
+ n1: 76548 0x41190F: MAIN__ (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+  n0: 76548 0x40239C: main (in /home/klestalubi/Desktop/home-version/coordination_analysis)
+ n0: 22852 in 26 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=75
+#-----------
+time=86227382692
+mem_heap_B=5110945
+mem_heap_extra_B=200807
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=87064748588
+mem_heap_B=5111105
+mem_heap_extra_B=200807
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=87882786167
+mem_heap_B=5110945
+mem_heap_extra_B=200807
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=88700822893
+mem_heap_B=5110945
+mem_heap_extra_B=200807
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=89560826702
+mem_heap_B=5111105
+mem_heap_extra_B=200807
+mem_stacks_B=0
+heap_tree=empty
